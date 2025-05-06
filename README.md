@@ -38,3 +38,23 @@ This repository and its contents are licensed under the MIT License. See the [LI
 If you encounter any issues or have suggestions for improvements, feel free to open an issue.
 
 Stay tuned for future versions!
+
+
+# SSTool - Source Code
+
+## How to Compile
+
+1. Make sure you have Python installed (version 3.8 or higher).
+2. Install PyInstaller if you don't have it already:
+
+    ```bash
+    pip install pyinstaller
+    ```
+
+3. Compile the tool by running the following command from the project root:
+
+    ```bash
+    pyinstaller ss_tool.py --noconfirm --onefile --icon=logo.ico --name=SSTool-1.0.0-BETA
+    ```
+
+    This will generate the `.exe` file.
